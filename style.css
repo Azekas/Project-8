@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3cb371 ;
+    font-family: roboto;
+    max-width: auto;
+}
+
+main{
+    max-width: 1920px;
+    width: 90%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+h3{
+    color: black;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-style: bold;
+}
+.with-pic{
+    background: #ffffff;
+    color:#656460;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #3cb371 ;
+}
+.with-pic1{
+    background: #ffffff;
+    color:#656460;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #3cb371 ;
+    display: block;  
+}
+
+p {
+    text-align: justify;
+    margin: 15px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.last-line{
+    margin-top: -25px;
+    display: flex;
+    justify-content: space-between;
+}
+.author, .comments{
+    font-size: 13px;
+}
+
+.layout{
+    display: flex;
+}
+.right-1{
+    width: 30%;
+    margin-left: 30px;
+    
+}
+.left-1{
+    width: 1000px;
+}
+
+
+@media (min-width:320px) and (max-width:1000px){
+    .layout{ 
+        display: block;
+    }
+    .left-1{
+        width:100%;
+        box-sizing: border-box;
+        
+    }
+    .right-1{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
